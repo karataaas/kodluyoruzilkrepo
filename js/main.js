@@ -1,1 +1,0 @@
-ıvfb vjsndmkşl

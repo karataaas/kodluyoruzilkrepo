@@ -1,0 +1,19 @@
+ h1,
+ h2,
+ h3 {
+     color: brown;
+ }
+
+ a {
+     color: black;
+ }
+
+ #nav {
+     height: 110px;
+     text-align: center;
+ }
+
+ .article-1 {
+
+     text-align: center;
+ }

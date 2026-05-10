@@ -1,0 +1,77 @@
+
+
+.container {
+    width: 1000px;
+    height: 700px;
+    margin: 0px auto;
+}
+
+.header {
+    width: 980px;
+    height: 200px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.section{
+    width: 980px;
+    height: 65px;
+    margin-left: 10px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+}
+#input-1{
+    height: 20px;
+    width: 400px;
+    border-radius: 3px;
+    border: 1px solid rgb(75, 75, 75);
+
+}
+#input-2{
+    width: 180px;
+    border-radius: 3px;
+    border: 1px solid rgb(75, 75, 75);
+}
+.butt{
+    border-radius: 3px;
+    border: 1px solid rgb(75, 75, 75);
+}
+
+.content{
+    width: 1000px;
+    height: 140px;
+    text-align: center;
+}
+.box-1{
+    width: 388px;
+    height: 80px;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+.box-2{
+    width: 200px;
+    height: 80px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 10px;
+    float: left;
+}
+.box-3{
+    width: 388px;
+    height: 85px;
+    margin-top: 2px;
+    padding-top: 5px;
+    float: left;
+}
+
+/* .box{
+    width: 38%;
+    height: 80px;
+    margin-left: 10px ;
+    padding-top: 20px;
+    float: left;
+    background-color: rgb(187, 187, 187);
+} */

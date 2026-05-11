@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    height: auto;
+}
+
+#header{
+    width: auto;
+    height: 60px;
+}
+.section-1{
+    width: 46%;
+    height: 40px;
+    padding-top: 40px;
+    padding-left: 4%;
+    font-size: 14px;
+    float: left;
+}
+.section-2{
+    width: 46%;
+    height: 40px;
+    font-size: 14px;
+    padding-top: 40px;
+    padding-right: 4%;
+    float: left;
+    text-align: right;
+}
+.sign{
+    width: 70px;
+    height: 25px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(73, 126, 225);
+    color: white;
+    border: 0px solid #f2f2f2;
+
+}
+#selection{
+    width: auto;
+    height:  450px;
+    text-align: center;
+}
+#main-frame{
+    width: 484px;
+    height: 247px;
+
+    margin: auto;
+    margin-top: 182px;
+
+}
+#logo{
+    height: 92px; 
+    width: auto;
+    text-align: center;
+}
+#search-frame{
+    width: auto;
+    height: 45px;
+    margin-top: 30px;
+}
+#search{
+    width: 440px;
+    height: 41px;
+    border-radius: 30px;
+    padding-left: 40px;
+    outline: none;
+    border: 1px solid  #e5e3e3;
+    background-image: url('arama-1.webp');
+    background-repeat: no-repeat;
+    background-position: 15px center ;
+    background-size: 15px;
+}
+#button{
+    width: auto;
+    height: 40px;
+    margin-top: 30px;
+}
+#button-1{
+    height: 40px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid  #f2f2f2;
+    color: #5f6368;
+}
+#button-2{
+    height: 40px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid  #f2f2f2;
+    color: #5f6368;
+    margin-left: 10px;
+}
+#footer{
+    background-color: #f2f2f2;
+    width: auto;
+    height: 26px;
+    padding-top: 13px;
+}
+.section-3{
+    
+    width: 46%;
+    height: 26px;
+    float: left;
+    padding-left: 4%;
+}
+.section-4{
+    width: 46%;
+    height: 26px;
+    float: left;
+    text-align: right;
+    padding-right: 4%;
+}

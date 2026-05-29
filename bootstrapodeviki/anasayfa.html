@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(243, 241, 241);
+        }
+
+        .btn-raounded {
+            height: 35px;
+            width: 252px;
+            border-radius: 10px;
+            border: 1px solid rgb(153, 152, 152);
+            outline: none;
+        }
+
+        .arama {
+            background-image: url("img/arama-iconu-2.png");
+            background-repeat: no-repeat;
+            background-position: 90px;
+            text-align: center;
+            background-size: 17px;
+        }
+
+        #icon {
+            height: 25px;
+            width: 30px;
+            padding-right: 5px;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+
+        .m-130 {
+            margin-left: 250px;
+        }
+
+        #left {
+            float: left;
+        }
+
+        .p {
+            width: 70px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .kullanici {
+
+            height: 80px;
+        }
+
+        #btnGroupDrop1 {
+            width: 40px;
+            height: 40px;
+            border: 0px solid rgb(255, 255, 255);
+            outline: none;
+            background-color: white;
+        }
+
+        #yorum {
+            height: 50px;
+            width: 530px;
+            outline: none;
+        }
+
+        #button {
+            width: 115px;
+            height: 50px;
+            position: absolute;
+            color: rgba(0, 128, 255, 0.597);
+            font-weight: bold;
+        }
+
+        .profil-fotografi {
+            border: 3px solid rgb(192, 27, 120);
+        }
+
+        .h {
+            height: 520px;
+            width: 320px;
+        }
+
+        #takip-et-input {
+            float: right;
+            border: none;
+            background: none;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .kalin {
+            font-weight: bold;
+        }
+    </style>
+</head>
+style="float: right; border: 0px; background: none;
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border border-secondary bg-white fixed-top">
+        <div class="row pl-1 ">
+            <div class="col-sm-2 text-right p-1" style=" margin-left: 95px;">
+                <a href=""><img class="w-50" src="img/insta-1.png" alt=""></a>
+            </div>
+            <div class="col-sm-2 offset-sm-2 py-2 px-0">
+                <input type="text" name="arama" class="btn-raounded arama border border-secondar" placeholder=" Ara">
+            </div>
+            <div class="col-sm-2 offset-sm-1 pt-2 pl-2">
+                <div class="row">
+                    <div class="col-sm-2 m-1"><a href="">
+                            <img id="icon" src="img/home-iconu-1.webp" alt=""></a>
+                    </div>
+                    <div class="col-sm-2 m-1"><a href="">
+                            <img id="icon" src="img/message-iconu-1.png" alt=""></a>
+                    </div>
+                    <div class="col-sm-2 m-1"><a href="">
+                            <img id="icon" src="img/arama-iconu-1.svg" alt=""></a>
+                    </div>
+                    <div class="col-sm-2 m-1"><a href="">
+                            <img id="icon" src="img/kalp-iconu-1.png" alt=""></a>
+                    </div>
+                    <div class="col-sm-2 m-1"><a href="">
+                            <img src="img/IMG_3734.JPG" class="rounded-circle border border-dark" width="30"
+                                height="30"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div style="margin-top: 65px" class="">
+        <div class="row">
+            <div class="col-sm-5 mr-4  m-130 ">
+                <div class="row mt-4 ">
+                    <div class="col-sm-12 border border-secondar rounded pt-3 bg-white">
+                        <a href="" class="text-dark ml-2 mr-2" id="left"><img src="img/profiller-kodluyoruzjpg.png"
+                                class="rounded-circle profil-fotografi mr-2" width="70" height="70">
+                            <p class="p">kodluyoruz</p>
+                        </a>
+                        <a href="" class="text-dark mr-2" id="left"><img src="img/profiller-furkanTolgaYucel.webp"
+                                class="rounded-circle profil-fotografi mr-2" width="70" height="70">
+                            <p class="p">furkantolgayucel</p>
+                        </a>
+                        <a href="" class="text-dark mr-2" id="left"><img src="img/profiller-elon.jpg"
+                                class="rounded-circle profil-fotografi mr-2" width="70" height="70">
+                            <p class="p">elonmuskk</p>
+                        </a>
+                        <a href="" class="text-dark mr-3" id="left"><img src="img/profiller-hakanYalcin.jpg"
+                                class="rounded-circle profil-fotografi mr-2" width="70" height="70">
+                            <p class="p">hakanyalcin</p>
+                        </a>
+                        <a href="" class="text-dark mr-2" id="left"><img src="img/profiller-ozgeacik.webp"
+                                class="rounded-circle profil-fotografi mr-2" width="70" height="70">
+                            <p class="p">ozgeacik</p>
+                        </a>
+                        <a href="" class="text-dark mr-2" id="left"><img src="img/profiller-kablosuzKedi.jpg"
+                                class="rounded-circle profil-fotografi mr-2" width="70" height="70">
+                            <p class="p">kablosuzkedi</p>
+                        </a>
+                        <a href="" class="text-dark " id="left"><img src="img/profiller-gulcanYayla.jpg"
+                                class="rounded-circle profil-fotografi mr-2" width="70" height="70">
+                            <p class="p">gulcanyayla</p>
+                        </a>
+                    </div>
+                </div>
+                <!-------------------------------------------------------------------------------------->
+                <div class="row mt-4">
+                    <div class="bg-white" style="width: auto; ">
+                        <div class="py-3 px-4 border border-secondar rounded" style="width: auto;">
+                            <a href=""><img src="img/IMG_3734.JPG" class="rounded-circle profil-fotografi" width="60"
+                                    height="60"></a>
+                            <a href="" class="ml-3" style="color: black;"><strong>gkarratass</strong></a>
+                            <div class="btn-group" role="group" style="margin-left:380px;">
+                                <button id="btnGroupDrop1" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <strong style="font-size: 26px;">...</strong>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item" href="#">Dropdown link</a>
+                                    <a class="dropdown-item" href="#">Dropdown link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ">
+                            <img src="img/rize-resim.webp" style="height: 450px;" class="card-img-top" alt="...">
+                            <div class="card-body pt-2 pl-3">
+                                <div class="p-1">
+                                    <a href="" >
+                                        <img class="" style="height: 25px; width: 25px;" src="img/kalp-iconu-1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img class="" style="height: 25px; width: 25px; margin-left: 10px;" src="img/message-iconu-1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img class="" style="height: 25px; width: 25px; margin-left: 10px;" src="img/paylas-iconu-1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img class="" style="float: right; height: 25px; width: 25px; margin-left: 10px;" src="img/kaydet-iconu-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <p class="card-text mt-2">
+                                        <a href="">
+                                            <img src="img/profiller-furkanTolgaYucel.webp" class="rounded-circle border border-dark mr-2" width="30" height="30"><strong class="text-dark">furkantolgayucel</strong>
+                                        </a> ve <a href=""><strong class="text-dark">42 diğer kişi </strong></a>beğendi
+                                    </p>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="card-text">
+                                        <a href=""><strong class="text-dark">gkarratass</strong></a> Burası Rize! Harika bir cennet! 
+                                    </p>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="card-text">
+                                        <a href="" class="text-secondary">15 yorumun tümünü gör</a>
+                                        <br>
+                                        <a href=""><strong class="text-dark">furkantolgayucel</strong></a> Abi çok güzelmiş yaa! Bir gün götürürsün artık bizi de:) 
+                                        <br>
+                                        <a href=""><strong class="text-dark">elonmuskk</strong></a> That's wonderful view bro! I always want to travel Rize...
+                                    </p>
+                                </div>
+                                <p class="card-text"><small class="text-muted">10 SAAT ÖNCE</small></p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <input id="yorum" type="text" name="yorum" placeholder="Yorum Ekle..."
+                                class="pl-3 rounded-left border border-secondar">
+                            <a href=""><input id="button" type="button" value="Paylaş"
+                                    class="rounded-right border border-secondar bg-white"></a>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------->
+                <div class="row mt-4">
+                    <div class="bg-white" style="width: auto; ">
+                        <div class="py-3 px-4 border border-secondar rounded" style="width: auto;">
+                            <a href=""><img src="img/profiller-kodluyoruzjpg.png" class="rounded-circle profil-fotografi" width="60"
+                                    height="60"></a>
+                            <a href="" class="ml-3" style="color: black;"><strong>gkarratass</strong></a>
+                            <div class="btn-group" role="group" style="margin-left:380px;">
+                                <button id="btnGroupDrop1" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <strong style="font-size: 26px;">...</strong>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item" href="#">Dropdown link</a>
+                                    <a class="dropdown-item" href="#">Dropdown link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ">
+                            <img src="img/aws-quick.jpg" style="height: 450px;" class="card-img-top" alt="...">
+                            <div class="card-body pt-2 pl-3">
+                                <div class="p-1">
+                                    <a href="" >
+                                        <img class="" style="height: 25px; width: 25px;" src="img/kalp-iconu-1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img class="" style="height: 25px; width: 25px; margin-left: 10px;" src="img/message-iconu-1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img class="" style="height: 25px; width: 25px; margin-left: 10px;" src="img/paylas-iconu-1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img class="" style="float: right; height: 25px; width: 25px; margin-left: 10px;" src="img/kaydet-iconu-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <p class="card-text mt-2">
+                                        <a href="">
+                                            <img src="img/IMG_3734.JPG" class="rounded-circle border border-dark mr-2" width="30" height="30"><strong class="text-dark">gkarratass</strong>
+                                        </a> ve <a href=""><strong class="text-dark">670 diğer kişi </strong></a>beğendi
+                                    </p>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="card-text">
+                                        <a href=""><strong class="text-dark">kodluyoruz</strong></a> Barış Balta ile AWS Quick Start Etkinliği #1 30 Ocak Cumartesi günü saat 10:00-15:30'da! 
+                                    </p>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="card-text">
+                                        <a href="" class="text-secondary">60 yorumun tümünü gör</a>
+                                        <br>
+                                        <a href=""><strong class="text-dark">gkarratass</strong></a> Harika! Kesinlikle katılacağım:) 
+                                        <br>
+                                        <a href=""><strong class="text-dark">kablosuzBeyin</strong></a> Topluluk olarak heyecanlıyız!
+                                    </p>
+                                </div>
+                                <p class="card-text"><small class="text-muted">10 SAAT ÖNCE</small></p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <input id="yorum" type="text" name="yorum" placeholder="Yorum Ekle..."
+                                class="pl-3 rounded-left border border-secondar">
+                            <a href=""><input id="button" type="button" value="Paylaş"
+                                    class="rounded-right border border-secondar bg-white"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------------------------------------------------->
+                <div class="row mt-4">
+                    <div class="bg-white" style="width: auto; ">
+                        <div class="py-3 px-4 border border-secondar rounded" style="width: auto;">
+                            <a href=""><img src="img/profiller-elon.jpg" class="rounded-circle profil-fotografi" width="60"
+                                    height="60"></a>
+                            <a href="" class="ml-3" style="color: black;"><strong>elonmuskk</strong></a>
+                            <div class="btn-group" role="group" style="margin-left:380px;">
+                                <button id="btnGroupDrop1" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <strong style="font-size: 26px;">...</strong>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item" href="#">Dropdown link</a>
+                                    <a class="dropdown-item" href="#">Dropdown link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ">
+                            <img src="img/spacex.webp" style="height: 450px;" class="card-img-top" alt="...">
+                            <div class="card-body pt-2 pl-3">
+                                <div class="p-1">
+                                    <a href="" >
+                                        <img class="" style="height: 25px; width: 25px;" src="img/kalp-iconu-1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img class="" style="height: 25px; width: 25px; margin-left: 10px;" src="img/message-iconu-1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img class="" style="height: 25px; width: 25px; margin-left: 10px;" src="img/paylas-iconu-1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img class="" style="float: right; height: 25px; width: 25px; margin-left: 10px;" src="img/kaydet-iconu-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <p class="card-text mt-2">
+                                        <a href="">
+                                            <img src="img/IMG_3734.JPG" class="rounded-circle border border-dark mr-2" width="30" height="30"><strong class="text-dark">gkarratass</strong>
+                                        </a> ve <a href=""><strong class="text-dark">900.182 diğer kişi </strong></a>beğendi
+                                    </p>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="card-text">
+                                        <a href=""><strong class="text-dark">elonmuskk</strong></a> That's just beautiful! 
+                                    </p>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="card-text">
+                                        <a href="" class="text-secondary">1500 yorumun tümünü gör</a>
+                                        <br>
+                                        <a href=""><strong class="text-dark">gkarratass</strong></a> Yeah! Here you go! 
+                                        <br>
+                                        <a href=""><strong class="text-dark">spacex</strong></a> When are we moving?
+                                    </p>
+                                </div>
+                                <p class="card-text"><small class="text-muted">10 SAAT ÖNCE</small></p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <input id="yorum" type="text" name="yorum" placeholder="Yorum Ekle..."
+                                class="pl-3 rounded-left border border-secondar">
+                            <a href=""><input id="button" type="button" value="Paylaş"
+                                    class="rounded-right border border-secondar bg-white"></a>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------>
+
+            </div>
+
+            <div class=" mt-4 h rounded pb-3 px-3">
+                <div class=" mt-3">
+                    <a href="">
+                        <img src="img/IMG_3734.JPG" class="rounded-circle profil-fotografi mr-4" width="70" height="70">
+                        <strong style="color: black;">gkarratass</strong>
+                    </a>
+                    <div>
+                        <ol class="mt-3 p-0 text-secondary ">Senin için öneriler
+                            <a href="" style="float: right;"><strong class="text-dark">Tümünü Gör</strong></a>
+                        </ol>
+                    </div>
+                    <ol class="p-0">
+                        <a href="">
+                            <img src="img/kablosuzBeyin.png" class="rounded-circle mr-3" width="30" height="30">
+                            <strong class="text-dark">kablosuzbeyin</strong>
+                        </a>
+                        <a href=""><input id="takip-et-input" class="  text-info kalin" type="button"
+                                value="Takip Et"></a>
+                    </ol>
+                    <ol class="p-0">
+                        <a href="">
+                            <img src="img/codeCraft.jpg" class="rounded-circle mr-3" width="30" height="30">
+                            <strong class="text-dark">codecraftcom</strong>
+                        </a>
+                        <a href=""><input id="takip-et-input" class=" text-info kalin" type="button"
+                                value="Takip Et"></a>
+                    </ol>
+                    <ol class="p-0">
+                        <a href="">
+                            <img src="img/navlungo.jpg" class="rounded-circle mr-3" width="30" height="30">
+                            <strong class="text-dark">navlungotr</strong>
+                        </a>
+                        <a href=""><input id="takip-et-input" class=" text-info kalin" type="button"
+                                value="Takip Et"></a>
+                    </ol>
+                    <ol class="p-0">
+                        <a href="">
+                            <img src="img/podFresh.jpg" class="rounded-circle mr-3" width="30" height="30">
+                            <strong class="text-dark">podfreshco</strong>
+                        </a>
+                        <a href=""><input id="takip-et-input" class=" text-info kalin" type="button"
+                                value="Takip Et"></a>
+                    </ol>
+                    <ol class="p-0">
+                        <a href="">
+                            <img src="img/kodluyoruzJunior.jpg" class="rounded-circle mr-3" width="30" height="30">
+                            <strong class="text-dark">Kodluyoruz Junior</strong>
+                        </a>
+                        <a href=""><input id="takip-et-input" class=" text-info kalin" type="button"
+                                value="Takip Et"></a>
+                    </ol>
+                    <ol class="mt-3 p-0 text-secondary ">
+                        Hakkında Yardım Basın API Iş Fırsatları Gizlilik Koşullar Lorem
+                        ipsum dolor sit amet consectetur.
+                    </ol>
+                    <ol class="mt-3 p-0 text-secondary ">@ 2021 INSTAGRAM FROM KODLUYORUZ </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

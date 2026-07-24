@@ -1,0 +1,126 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+1) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+2) Big-O gösterimini yazınız.
+
+3) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+
+4) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+1) cevap
+	
+	1)Adım
+		karşılaştırılan eleman:27
+		22 ile karşılaştırılır.
+		22<27
+		yer değiştirme yapılmaz.
+		[22,27,16,2,18,6]
+		sıralı bölüm: [22,27]
+
+	2.adım
+		karşılaştırılan eleman:16
+		karşılaştırmalar:
+		16 < 27 -> 27 sağa kaydırılır
+		16 < 22 -> 22 sağa kaydırılır
+		yer değiştirme yapılır
+		[16,22,27,2,18,6]
+		sıralı bölüm: [16,22,27]
+	
+	3.adım
+		karşılaştırılan eleman:2
+		karşılaştırmalar:
+		2 < 27 -> 27 sağa kaydırılır
+		2 < 22 -> 22 sağa kaydırılır
+		2 < 16 -> sağa kaydırılır
+		yer değiştirme yapılır:
+		[2,16,22,27,18,6]
+		sıralı bölüm: [2,16,22,27]
+	
+	4.adım
+		karşılaştırılan eleman:18
+		karşılaştırmalar:
+		18 < 27 -> 27 sağa kaydırılır
+		18 < 22 -> 22 sağa kaydırılır
+		18 > 16 -> dur
+		18, 16 ile 22 arasına yerleşir
+		yer değiştirme yapılır
+		[2,16,18,22,27,6]
+		sıralı bölüm: [2,16,18,22,27]
+	
+	5.adım
+		karşılaştırılan eleman:6
+		karşılaştırmalar:
+		6 < 27 -> 27 sağa kaydırılır
+		6 < 22 -> 22 sağa kaydırılır
+		6 < 18 -> 18 sağa kaydırılır
+		6 < 16 -> 16 sağa kaydırılır
+		6 > 2 -> dur
+		6, 2 ile 16 arasına yazılır
+		yer değiştirme yapılır
+		[2,6,16,18,22,27]
+		sıralı bölüm: [2,6,16,18,22,27]
+Sonuç) [2,6,16,18,22,27]
+
+
+2) cevap
+
+	Best Case : o(n)
+	Dize zaten sıralıdır.
+	
+	Average Case : o(n²)
+	Dizi rastgele durumdadır.
+
+	Worst Case : o(n²)
+	Dizi tamamen ters sıralıdır.
+
+
+3) cevap
+	
+	18 ortadaki elemanlardan biridir bu yüzden 
+	Average Case' dir
+	
+
+4) cevap
+				[7,3,5,8,2,9,4,15,6]
+	
+Selection Sort: Her turda dizinin en küçük elemanı bulunur ve baştaki ile yer değişir.
+
+	1.tur 
+		7
+		3
+		5
+		8
+		2
+		9	
+		4
+		15
+		6
+	  	en küçüğü 2 o yüzden 7 ile yer değiştircek.
+		[2,3,5,8,7,9,4,15,6]
+	
+	2.tur 
+		ilk eleman artık belli 
+		[3,5,8,7,9,4,15,6]		
+		en küçüğü 3 
+		zaten yerinde yer değiştirmesine gerek yok
+
+	3.tur
+		kalan dizi: [5,8,7,9,4,15,6]
+		en küçüğü : 4
+		4 ile 5 yer değiştirir.
+		[2,3,4,8,7,9,5,15,6]
+	
+	4.tur
+		kalan dizi: [8,7,9,5,15,6]
+		en küçüğü : 5 
+		5 ile 8 yer değiştirir.
+		[2,3,4,5,7,9,8,15,6]
+
+
+

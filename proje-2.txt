@@ -1,0 +1,36 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+2) Big-O gösterimini yazınız.
+
+
+-----------------------------------------------------------
+
+1) cevap
+
+	Merge Sort, böl ve yönet yaklaşımını kullanan bir sıralama algoritmasıdır.
+		Dizi ortadan ikiye böler.
+		Tek eleman kalana kadar bölmeye devam eder.
+		Sonra sıralı bir şekilde birliştirir(merge).
+			
+		bölme aşaması
+			[16,21,11,8,12,22]
+			    /        \
+			[16,21,11] [8,12,22]
+		       [16][21,11] [8][12,22]
+		      [16][21][11] [8][12][22]
+		birleştirme aşaması 
+			[21][11] -> [11,21]
+			[12][22] -> [12,22]
+		     [16][11,21] -> [11,16,21]
+		      [8][12,22] -> [8,12,22]
+			
+			[11,16,21] [8,12,22]
+			
+		sonuç) [8,11,12,16,21,22]
+
+2) cevap 
+		
+	Best Case : o(n log n)
+	Average Case : o(n log n)
+	Worst Case : o(n log n)
